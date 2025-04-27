@@ -81,13 +81,13 @@ class player {
         }
         else {
 
-            // if (this.control != null)
-            //     if(this.control.up == true) {
-            //     if (this.vel_y > -27) {
-            //         this.vel_y -= 4;
-            //     }
+            if (this.control != null)
+                if(this.control.up == true) {
+                if (this.vel_y > -27) {
+                    this.vel_y -= 4;
+                }
     
-            // }
+            }
             else this.vel_y = 0;
 
         }
